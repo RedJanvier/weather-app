@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-center text-muted my-5">Weather App</h1>
+
+        <form class="my-4 text-center text-muted">
+            <label for="city">Enter a location for weather conditions</label>
+            <input type="text" name="city" class="form-control p-4">
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="" class="time card-img-top ">
+            <div class="icon bg-light mx-auto text-center shadow-sm">
+                <img src="">
+            </div>
+            <div class="details text-muted text-uppercase text-center">
+                <h5 class="my-4">city name</h5>
+                <div class="my-4 conditions">weather conditions</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;c</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

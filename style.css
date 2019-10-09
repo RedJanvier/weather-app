@@ -1,0 +1,15 @@
+body{
+    background: #eeedef;
+    line-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container{
+    max-width: 400px;
+}
+.icon{
+    border-radius: 50%;
+    position: relative;
+    top: -50;
+    width: 100px;
+    /* margin-top: -50px;     */
+}
