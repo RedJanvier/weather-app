@@ -1,4 +1,4 @@
-const key = 'dB6qhiR7YIYeht9QZuDCreUu2H7RFgFG';
+const key = process.env.API_KEY;
 
 const getCity = async (city) => {
     const base = "http://dataservice.accuweather.com/locations/v1/cities/search";
