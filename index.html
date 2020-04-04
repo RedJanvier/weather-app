@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container my-2 mx-auto">
-        <h1 class="text-center text-muted my-5">Weather App</h1>
+        <h1 class="text-center text-muted my-2 mt-4">Weather App</h1>
 
         <form class="my-4 text-center text-muted">
             <label for="city">Enter a location for weather conditions</label>
@@ -18,20 +18,17 @@
         </form>
 
         <div class="card shadow-lg rounded d-none">
+            <div class="lds-ripple d-none loader mt-5 mx-auto">
+                <div></div>
+                <div></div>
+            </div>
             <div class="card-img-wrapper">
                 <img src="" class="time card-img-top ">
             </div>
             <div class="icon bg-light mx-auto text-center shadow-sm">
                 <img src="">
             </div>
-            <div class="details text-muted text-uppercase text-center">
-                <h5 class="my-2"></h5>
-                <div class="my-2 conditions"></div>
-                <div class="display-4 my-4">
-                    <span>temp</span>
-                    <span>&deg;c</span>
-                </div>
-            </div>
+            <div class="details text-muted text-uppercase text-center"></div>
         </div>
     </div>
     <script src="scripts/forecast.js"></script>
