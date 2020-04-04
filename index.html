@@ -9,22 +9,24 @@
     <title>weather app</title>
 </head>
 <body>
-    <div class="container my-5 mx-auto">
+    <div class="container my-2 mx-auto">
         <h1 class="text-center text-muted my-5">Weather App</h1>
 
         <form class="my-4 text-center text-muted">
             <label for="city">Enter a location for weather conditions</label>
-            <input type="text" name="city" class="form-control p-4">
+            <input type="text" name="city" class="form-control p-4" autofocus>
         </form>
 
         <div class="card shadow-lg rounded d-none">
-            <img src="" class="time card-img-top ">
+            <div class="card-img-wrapper">
+                <img src="" class="time card-img-top ">
+            </div>
             <div class="icon bg-light mx-auto text-center shadow-sm">
                 <img src="">
             </div>
             <div class="details text-muted text-uppercase text-center">
-                <h5 class="my-4">city name</h5>
-                <div class="my-4 conditions">weather conditions</div>
+                <h5 class="my-2"></h5>
+                <div class="my-2 conditions"></div>
                 <div class="display-4 my-4">
                     <span>temp</span>
                     <span>&deg;c</span>
